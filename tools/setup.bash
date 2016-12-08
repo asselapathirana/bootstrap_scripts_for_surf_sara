@@ -2,7 +2,7 @@
 set -e
 if [ $# -lt 1 ]
 then 
- 	echo "USAGE: $0 <mother_machine_ip>"
+ 	echo "USAGE: $0 <mother_machine_ip> (internal: e.g. 10)"
 	exit 1
 fi 
 ip=${1}
