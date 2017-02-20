@@ -18,7 +18,7 @@ if [ ! -d "/data" ] ; then mkdir /data ; fi
 
 apt install nfs-common 
 mount -a
-cp /opt/tools/authorized_keys ~/.ssh/.
-chmod og-rwx ~/.ssh/authorized_keys
+cp /opt/tools/authorized_keys ~ubuntu/.ssh/.
+chmod og-rwx ~ubuntu/.ssh/authorized_keys
 apt-get install libboost-all-dev
 . /opt/src/setintel
